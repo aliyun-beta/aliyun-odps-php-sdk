@@ -1,0 +1,15 @@
+<phpunit bootstrap="./bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="Aliyun ODPS Test Suite">
+            <directory>./Core/</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory>../core/</directory>
+            <exclude>
+                <directory></directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>
