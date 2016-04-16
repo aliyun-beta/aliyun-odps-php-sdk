@@ -13,7 +13,7 @@
 
 ## Features
 1. Provides full features support of aliyun ODPS api, more api detail in [official api document](http://repo.aliyun.com/api-doc/index.html)
-2. Wide variety debug supports.
+2. Wide variety debuging supports.
 
 
 ## Services
