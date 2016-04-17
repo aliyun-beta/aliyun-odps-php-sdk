@@ -1,7 +1,7 @@
 <phpunit bootstrap="./bootstrap.php" colors="true">
     <testsuites>
         <testsuite name="Aliyun ODPS Test Suite">
-            <directory>./Core/</directory>
+            <directory>./ODPS/Services/</directory>
         </testsuite>
     </testsuites>
     <filter>
