@@ -1,6 +1,9 @@
 #aliyun-odps-php-sdk
 ![PHP 64bit](https://img.shields.io/badge/php-64bit-green.svg)
 
+##CI
+[![Build Status](https://travis-ci.org/aliyun-beta/aliyun-odps-php-sdk.svg?branch=master)](https://travis-ci.org/aliyun-beta/aliyun-odps-php-sdk)
+
 ##Preconditoins
 1. Since some data types(such as Bigint, Datetime) in ODPS depends on 64bit integer (long in java), and php32 build doesn't include this type, so we have to use php 64bit version for running odps project.
     
