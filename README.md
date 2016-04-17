@@ -66,7 +66,7 @@ $odps = new Odps(...)
 $odps->setDebugMode(true);
 ... do service request...
 $tableService = new TableService($odps);
-$result = $tableService.getTables();
+$result = $tableService.getTable($tblName);
 
 print $result->debugInfo;
 
